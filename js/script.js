@@ -20,19 +20,24 @@ $(document).ready(function() {
       h += 3;
     }
 
-    // Showing The Hour/Minutes/Seconds with 2 figures
+    // Setting Up AM/PM
+    var ampm = '';
+
+    // Setting up 12-hour option
+    var switcher1 = document.getElementById('switcher1');
+    if (switcher1.className.indexOf("active") != -1){
+      if (h > 12){
+        ampm = 'PM';
+        h -= 12;
+      } else {
+        ampm = 'AM';
+      }
+    }
+
+  // Showing The Hour/Minutes/Seconds with 2 figures
     if (h < 10){ h = '0' + h; }
     if (m < 10){ m = '0' + m; }
     if (s < 10){ s = '0' + s; }
-
-    // Setting Up AM/PM
-    var ampm = '';
-    if (h > 12){
-      ampm = 'PM';
-      h -= 12;
-    } else {
-      ampm = 'AM';
-    }
 
     // Final Time Output;
     var time = h + ':' + m + ':' + s;

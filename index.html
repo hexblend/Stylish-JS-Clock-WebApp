@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!-- OPTIONAL CSS (uncomment if needed) -->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!-- Font Awesome CSS -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/main.min.css" type="text/css">
 
   <!-- Page Title -->
   <title>JS Clock App</title>
@@ -21,26 +21,44 @@
 
 <body>
   <div class="container">
+    <h1>A JavaScript Clock App</h1>
 
-    <select class="form-control" id="locations-list">
-      <option value="London">London</option>
-      <option value="Moscow">Moscow</option>
-      <option value="Paris">Paris</option>
-      <option value="Bucharest">Bucharest</option>
-    </select>
+    <h3 id="location-output"></h3>
 
-
-    <div class="container center-elements">
-      <h1>A JavaScript Clock App</h1>
-      <h4 id="location-output"></h4>
+    <div class="center-elements">
       <h2 id="clock-output"></h2>
     </div>
+
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-secondary active" id="switcher1">
+        <input type="radio" name="options" id="option1" autocomplete="off">12 Hours
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option2" autocomplete="off">24 Hours
+      </label>
+    </div>
+
+    <div class="row location-wrapper">
+      <p>Location:</p>
+      <select class="form-control" id="locations-list">
+        <option value="London">London</option>
+        <option value="Moscow">Moscow</option>
+        <option value="Paris">Paris</option>
+        <option value="Bucharest">Bucharest</option>
+      </select>
+    </div>
+
+    <footer>
+      <p>This app is made by <a href="https://github.com/webexplained">Vlad Bibire</a></p>
+      <p>Source code can be found <a href="https://github.com/webexplained/Simple-JS-Web-Clock-App">here.</a></p>
+      <p>&copy; 2018 AJavaScriptClockApp</p>
+    </footer>
+
 
   </div>
 
 
 
-  <!-- Optional JavaScript (uncomment if needed) -->
   <!-- 1.jQuery 2.Popper.js 3.Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

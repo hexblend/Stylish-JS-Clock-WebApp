@@ -359,6 +359,8 @@ body .container footer p {
         font-size: 1.9em;
         position: relative;
         clear: both;
+        margin-top: 20%;
+        margin-bottom: 15%;
     }
     body .container h3 {
         margin-top: 10px;
@@ -370,7 +372,10 @@ body .container footer p {
         margin-top: -30px;
     }
     body .container footer{
-      position: relative;
-      margin-top: 50px;
+      width: 60%;
+      position: absolute;
+      bottom: 0;
+      right: 18%;
+
     }
 }

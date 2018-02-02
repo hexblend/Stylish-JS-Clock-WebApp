@@ -13,9 +13,13 @@ Add topics
 Being just a static template, all you need to do is to `Clone/Download` this repository
 into your machine and then open `index.html` using your browser.
 
+## Technologies Used
+* [Bootstrap 4](https://getbootstrap.com/)
+* [Google Fonts](https://fonts.google.com/)
+
 
 ### Credits
-* Unsplash : `https://unsplash.com/` - for background image source
+* Unsplash : (https://unsplash.com/) - for background image source
 
 ## Preview
 ![](preview.png)

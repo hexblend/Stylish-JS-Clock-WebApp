@@ -372,10 +372,8 @@ body .container footer p {
         margin-top: -30px;
     }
     body .container footer{
-      width: 60%;
-      position: absolute;
-      bottom: 0;
-      right: 18%;
-
+      position: relative;
+      margin-top: 28%;
+      margin-bottom: 50px;
     }
 }

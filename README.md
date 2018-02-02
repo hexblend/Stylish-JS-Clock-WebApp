@@ -1,6 +1,5 @@
 # Simple JavaScript Clock App
 A very simple Realtime JavaScript Clock Application with Time Zones Edit
-* Live Preview: https://webexplained.github.io/Stylish-JS-Clock-WebApp/
 
 ## Feautures
 
@@ -22,6 +21,7 @@ into your machine and then open `index.html` using your browser.
 * Unsplash : (https://unsplash.com/) - for background image source
 
 ## Preview
+* Live: https://webexplained.github.io/Stylish-JS-Clock-WebApp/
 ![](preview.png)
 
 

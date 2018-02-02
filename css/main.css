@@ -373,7 +373,7 @@ body .container footer p {
     }
     body .container footer{
       position: relative;
-      margin-top: 10%;
-      margin-bottom: 10px;
+      margin-top: 15%;
+      margin-bottom: 100px;
     }
 }

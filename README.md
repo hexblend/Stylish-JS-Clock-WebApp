@@ -21,7 +21,7 @@ into your machine and then open `index.html` using your browser.
 * Unsplash : (https://unsplash.com/) - for background image source
 
 ## Preview
-* Live: https://webexplained.github.io/Stylish-JS-Clock-WebApp/
+* Live: https://vladb.uk/Stylish-JS-Clock-WebApp/
 ![](preview.png)
 
 
